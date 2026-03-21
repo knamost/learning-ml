@@ -166,4 +166,34 @@ Think of it like training a dog — reward good behavior, discourage bad behavio
 
 ## 📝 Notes
 
-> I'll update my notes here
+ > **Feature Scaling**
+
+- **Apply**
+
+  - always applied to columns
+
+- **Don't Apply**
+
+  - never applied to across columns (not applied to data inside row)
+
+  - No need to apply feature scaling in multiple regression
+
+  - when dependent variable takes binary values like 0 & 1 - becaus they are already in range
+
+> **Support Vector Regression**
+
+**The Rule to Remember**
+
+StandardScaler  →  needs 2D input for both X and y
+
+SVR.fit()       →  needs 1D for y specifically
+
+X  →  always 2D  →  shape (n_samples, n_features)
+
+y  →  always 1D  →  shape (n_samples,)
+
+- `SVR.fit()` expects y to be a 1D array:
+
+## 🔗 Links
+
+> Datasets to practice - [Machine Learning Repository](https://archive.ics.uci.edu/)
